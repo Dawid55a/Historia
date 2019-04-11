@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+}
+
+/* Kod do wstawienia czcionki lokalnie, jkbc*/
+/*
+@font-face {
+
+    font-family: Quicksand;
+
+    src: url(Quicksand_Bold.otf);
+
+}
+*/
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
+}
+
+#cytat {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    padding: 20px;
+    color: #c51a1a;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.zd-l-3 {
+    width: 20%;
+    float: left;
+    margin: 50px 6% 50px 8%;
+    
+}
+
+.zd-c-3 {
+    margin: 0;
+    float: left;
+    width: 20%;
+    margin: 50px 6% 50px 6%;
+}
+
+.zd-r-3 {
+    margin: 0;
+    width: 20%;
+    float: left;
+    clear: right;
+    margin: 50px 8% 50px 6%;
+    
+}
+
+
+/* Cieniowanie dla obrazów */
+.shadow-left {
+    box-shadow: -20px -10px 50px -10px rgba(0,0,0,0.75);
+}
+
+.shadow-center {
+    box-shadow: 0px -10px 50px -10px rgba(0, 0, 0, 0.75);
+}
+
+.shadow-right {
+    box-shadow: 20px -10px 50px -10px rgba(0,0,0,0.75);
+}
+/* Cieniowanie dla obrazów */
+
+/* BLOKI DIV */
+.tytul {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(248, 248, 248, 1) 69%, rgba(241, 241, 241, 1) 100%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    color: #ff2424;
+}
+
+.tytul span {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 70px;
+}
+
+.tytul h1 {
+    font-size: 2em;
+}
+
+.tytul sup {
+    font-size: 150px;
+}
+
+.data-08-1980 {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    color: black;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.data-09-1980 {
+    background-color: darkorange;
+    width: 100%;
+    height: 1000px;
+}
+
+.rok-1947 {
+    background-color: darkblue;
+    width: 100%;
+    height: 1000px;
+}
+
+.rok-1948 {
+    background-color: darkred;
+    width: 100%;
+    height: 1000px;
+}
+
+/* BLOKI DIV */
+
+/* PRZYKLEJANE MENU */
+#menu {
+    overflow: hidden;
+    background-color: red;
+    height: 80px;
+    display: block;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+/* PRZYKLEJANE MENU */
+
+
+/* scroll */
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    width: auto;
+    height: 80px;
+    margin: 0px auto;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #000;
+    background: rgba(255, 255, 255, 0);
+    font-size: 2em;
+    font-family: 'Suez One';
+}
+
+.item--data {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+}
+
+/* scroll */
+
+
+
+/*PROGRES BAR*/
+/* 
+The progress container (grey background) 
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+The progress bar (scroll indicator) 
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+*/
+
