@@ -119,9 +119,11 @@ img {
 }
 
 .data-09-1980 {
-    background-color: darkorange;
+    background-color: #f1f1f1;
     width: 100%;
-    height: 1000px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .rok-1947 {
